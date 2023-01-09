@@ -1,0 +1,26 @@
+.row{
+    display:flex;
+
+}
+.listTable{
+    display:flex;
+    flex-direction: column;
+   
+    width: 400px;
+    background-color: aqua;
+   
+}
+.listPhoto{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(123, 193, 233);
+    width: 70%;
+  
+}
+li{
+    height:70px;
+    border:2px solid rgb(129, 100, 196);
+    border-radius: 10px;
+   
+    cursor:pointer;
+}
