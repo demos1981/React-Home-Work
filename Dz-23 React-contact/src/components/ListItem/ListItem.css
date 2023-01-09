@@ -1,0 +1,14 @@
+.basic.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+
+  
+}
+.buttonDelete{
+    background-color: rgb(235, 150, 150);
+}
