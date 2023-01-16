@@ -1,0 +1,49 @@
+.todo-item{
+    display: flex;
+    justify-content: flex-end;
+    padding:10px;
+    margin:10px;
+    background-color: azure;
+    color:black;
+    cursor:pointer;
+    height: 30px;
+    width:300px;
+    border:1px solid blueviolet;
+    border-radius: 5px;
+
+
+}
+.todo-item.done{
+    background-color: aquamarine;
+
+}
+
+
+.delete-btn{
+    width: 30px;
+    text-align: center;
+    border:1px solid blueviolet;
+}
+.todo-item.delete-btn{
+    display: flex;
+    flex-grow: 3;
+
+
+    
+}
+.u-full-width{
+    height: 30px;
+    width:300px;
+    margin:10px;
+    background-color: bisque;
+    border-radius: 5px;
+}
+.buttonSave{
+    height: 30px;
+    width:60px;
+    margin-left:10px;
+    border-radius: 5px;
+    background-color: rgb(163, 240, 208);
+
+
+}
